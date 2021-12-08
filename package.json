@@ -1,0 +1,27 @@
+{
+  "name": "osc-pattern-matching",
+  "version": "0.0.0-development",
+  "description": "A library to help OSC servers perform pattern matching on message OSC addresses",
+  "main": "src/index.js",
+  "scripts": {
+    "semantic-release": "semantic-release",
+    "test": "mocha"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "chai": "^4.3.4",
+    "eslint": "^8.3.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "mocha": "^9.1.3",
+    "prettier": "^2.5.0",
+    "semantic-release": "^18.0.1"
+  },
+  "repository": "git@github.com:estilles/osc-pattern-matching.git",
+  "author": "Johnny Estilles <johnny@estilles.com>",
+  "license": "ISC",
+  "private": false
+}
